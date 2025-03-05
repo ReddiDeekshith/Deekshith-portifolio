@@ -41,7 +41,7 @@ const About = () => {
     { 
       icon: <Code size={20} />, 
       title: "Projects", 
-      value: "5+" 
+      value: "6+" 
     },
     { 
       icon: <Briefcase size={20} />, 
@@ -61,7 +61,7 @@ const About = () => {
             ref={titleRef}
             className="text-3xl md:text-4xl font-bold mb-4 opacity-0 translate-y-10 transition-all duration-700 ease-out"
           >
-            Deckshift Reddit
+            Deekshith Reddi
           </h2>
         </div>
 
@@ -81,23 +81,22 @@ const About = () => {
           </div>
           
           <div className="col-span-1 md:col-span-2 flex flex-col justify-center">
-            <h3 className="text-2xl font-semibold mb-4">Full Stack Developer & UI/UX Designer</h3>
+            <h3 className="text-2xl font-semibold mb-4">Flutter Developer & Full Stack Engineer</h3>
             <p className="text-white/70 mb-6">
-              I am a passionate Full Stack Developer with expertise in React, JavaScript, HTML, CSS, Python, and SQL. With a focus on creating elegant solutions for complex problems, I blend technical excellence with creative design thinking.
+              I am a passionate developer with expertise in Flutter, React, JavaScript, HTML, CSS, Python, and SQL. With a focus on creating elegant mobile and web solutions, I blend technical excellence with creative design thinking.
             </p>
             <p className="text-white/70 mb-6">
-              As a Front-End Technical Intern, I designed and implemented modules with real-time feedback. I also developed backend APIs and networking applications during my Backend Engineer internship.
+              As a Technical Hub intern, I contributed to Hoot, a Flutter-based communication skills app. I also developed a Flutter-based bus and car tracking app for my college, utilizing GPS and OpenStreetMap for real-time tracking.
             </p>
             <div className="flex flex-wrap gap-3">
               {[
-                "C++", "Java", "Python", "JavaScript", "Dart",
-                "React.js", "Express.js", "HTML", "CSS", "Bootstrap",
-                "MongoDB", "SQL", 
-                "REST", "Flutter", "NodeJS", "Firebase"
+                "C/C++", "Java", "Python", "JavaScript", "Dart",
+                "Flutter", "ReactJS", "HTML", "CSS", 
+                "NodeJS", "MongoDB", "SQL", "Firebase", "RedHat Linux"
               ].map((skill) => (
                 <span 
                   key={skill}
-                  className="px-3 py-1 text-sm font-medium rounded-full bg-white/5 border border-white/10 text-white/80 hover-lift"
+                  className={`px-3 py-1 text-sm font-medium rounded-full bg-white/5 border border-white/10 text-white/80 hover-lift ${skill === "Flutter" ? "bg-blue-600/20 border-blue-500/30" : ""}`}
                 >
                   {skill}
                 </span>

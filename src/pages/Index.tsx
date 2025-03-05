@@ -15,17 +15,10 @@ const Index = () => {
   // Education items data from resume
   const educationItems = [
     {
-      title: "Masters Engineering Degree",
-      subtitle: "Computer Science and Engineering",
-      date: "July 2023 - Present",
-      description: "Relevant Coursework: Object Oriented Programming, Databases, Data Structures and Algorithms.",
-      icon: <BookOpen size={16} />,
-    },
-    {
-      title: "Bachelor's Degree",
-      subtitle: "Computer Science",
-      date: "July 2019 - May 2023",
-      description: "Relevant coursework in Object-Oriented Programming, Databases, Data Structures and Algorithms.",
+      title: "Aditya Engineering College",
+      subtitle: "BTech in Computer Science and Engineering",
+      date: "August 2022 - Present",
+      description: "CGPA: 8.97/10. Relevant Coursework: Object Oriented Programming, Databases, Data Structures and Algorithms, Android and iOS App Development.",
       icon: <BookOpen size={16} />,
     },
   ];
@@ -33,17 +26,17 @@ const Index = () => {
   // Internship items data from resume
   const internshipItems = [
     {
-      title: "Front-End Technical Intern",
-      subtitle: "Remote",
-      date: "June 2023 - July 2024",
-      description: "Designed and implemented the Character and Scenery Construction module with real-time feedback. Created engaging user interfaces with React and TypeScript.",
+      title: "Intern - Technical Hub",
+      subtitle: "Flutter Developer",
+      date: "June 2024 - July 2024",
+      description: "As an intern at Technical Hub, I contributed to Hoot, a group project enhancing communication skills. I designed and implemented the Dictation and Sentence Construction modules with real-time feedback, gaining experience in Flutter, Node.js, MongoDB, and teamwork.",
       icon: <Briefcase size={16} />,
     },
     {
-      title: "Backend Engineer Intern",
-      subtitle: "Remote",
-      date: "January 2023 - February 2023",
-      description: "Developed APIs and networking applications for Active Engineering College using Flask and PostgreSQL. Created database schema design, integration of various APIs, and user authentication.",
+      title: "Freelance Project - Bus and Car Tracking App",
+      subtitle: "Flutter Developer",
+      date: "December 2024 - January 2025",
+      description: "Developed a bus and car tracking application for Aditya Engineering College using Flutter. The project, completed in 1.5 months, utilized Flutter, Node.js, MongoDB, and OpenStreetMap (OSM) for real-time tracking, route optimization, and navigation services.",
       icon: <Briefcase size={16} />,
     },
   ];

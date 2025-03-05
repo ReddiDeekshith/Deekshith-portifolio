@@ -11,6 +11,7 @@ interface ProjectProps {
   githubUrl?: string;
   liveUrl?: string;
   index: number;
+  isHighlighted?: boolean;
 }
 
 const ProjectCard = ({
@@ -21,6 +22,7 @@ const ProjectCard = ({
   githubUrl,
   liveUrl,
   index,
+  isHighlighted = false,
 }: ProjectProps) => {
   const { ref, inView } = useInView({
     threshold: 0.1,
@@ -43,11 +45,11 @@ const ProjectCard = ({
     >
       <div 
         ref={cardRef}
-        className="glass-panel rounded-2xl overflow-hidden opacity-0 translate-y-10 transition-all duration-500 ease-out" 
+        className={`glass-panel rounded-2xl overflow-hidden opacity-0 translate-y-10 transition-all duration-500 ease-out ${isHighlighted ? 'border border-blue-500/30 bg-blue-900/10' : ''}`} 
         style={{ transitionDelay: `${index * 100}ms` }}
       >
         {/* Image */}
-        <div className="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-500/20 to-purple-500/20">
+        <div className={`aspect-video w-full overflow-hidden ${isHighlighted ? 'bg-gradient-to-br from-blue-500/30 to-purple-500/30' : 'bg-gradient-to-br from-blue-500/20 to-purple-500/20'}`}>
           <div className="w-full h-full flex items-center justify-center">
             <span className="text-6xl font-bold text-white/10">{index + 1}</span>
           </div>
@@ -55,15 +57,17 @@ const ProjectCard = ({
         
         {/* Content */}
         <div className="p-6">
-          <h3 className="text-xl font-semibold mb-2 group-hover:text-white transition-colors">{title}</h3>
-          <p className="text-white/60 text-sm mb-4 line-clamp-2">{description}</p>
+          <h3 className="text-xl font-semibold mb-2 group-hover:text-white transition-colors">
+            {isHighlighted && <span className="text-blue-400">● </span>}{title}
+          </h3>
+          <p className="text-white/60 text-sm mb-4 line-clamp-3">{description}</p>
           
           {/* Tags */}
           <div className="flex flex-wrap gap-2 mb-4">
             {tags.map((tag, idx) => (
               <span 
                 key={idx} 
-                className="px-2 py-1 text-xs rounded-full bg-white/5 text-white/70"
+                className={`px-2 py-1 text-xs rounded-full ${tag === 'Flutter' ? 'bg-blue-500/20 text-blue-300' : 'bg-white/5 text-white/70'}`}
               >
                 {tag}
               </span>
@@ -119,50 +123,53 @@ const Projects = () => {
   // Projects data from resume
   const projects = [
     {
-      title: "Face & Health Recognition",
-      description: "Utilized computer vision and deep learning techniques to automate attendance using biometric recognition. Enables secure facility access without friction and includes facial recognition with mask support.",
+      title: "Hoot",
+      description: "A group project designed to improve communication and verbal skills through a Flutter app with modules like reading passages, dictation, and retelling sentences. I developed the Dictation module, where users write words they hear with accuracy feedback, and the Sentence Construction module.",
       image: "/placeholder.svg",
-      tags: ["Python", "OpenCV", "AI"],
+      tags: ["Flutter", "Node.js", "MongoDB"],
+      githubUrl: "#",
+      liveUrl: "#",
+      isHighlighted: true
+    },
+    {
+      title: "Bus & Car Tracking App",
+      description: "Developed for Aditya Engineering College to track buses and cars in real-time using GPS. The app provides live location updates, estimated arrival times, and route details. It utilizes OpenStreetMap (OSM) for mapping and navigation.",
+      image: "/placeholder.svg",
+      tags: ["Flutter", "OpenStreetMap", "GPS"],
+      githubUrl: "#",
+      liveUrl: "#",
+      isHighlighted: true
+    },
+    {
+      title: "Swift Pay",
+      description: "Created a global and local payment solution to facilitate transactions across multiple regions. Implemented secure payment gateways, currency conversion, and support for various payment methods. Focused on delivering a seamless user experience.",
+      image: "/placeholder.svg",
+      tags: ["Flutter", "Firebase", "Node.js"],
+      githubUrl: "#",
+      liveUrl: "#",
+      isHighlighted: true
+    },
+    {
+      title: "Weather Application",
+      description: "Developed a responsive web-based weather application using HTML, CSS, and JavaScript. Integrated a weather API to fetch and display real-time weather conditions and forecasts based on the user's location. Designed a clean, user-friendly interface.",
+      image: "/placeholder.svg",
+      tags: ["HTML", "CSS", "JavaScript", "Weather API"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
-      title: "Snap Pay",
-      description: "Created a global payment platform solution to facilitate transactions across multiple regions. Provides seamless money transfers with competitive rates and supports the whole payment lifecycle.",
+      title: "Face & Thumb Recognition Attendance System",
+      description: "Developed for college management to automate attendance using biometric recognition. Enables secure and accurate attendance tracking through face and thumb recognition, reducing manual effort and errors. The system ensures real-time authentication.",
       image: "/placeholder.svg",
-      tags: ["Flutter", "Firebase", "NodeJS"],
+      tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
-      title: "Ubar",
-      description: "Implemented a ride-sharing platform optimized for urban travel with accurate feedback and location services. Features live location tracking, dynamic pricing, cashless transactions and driver support.",
+      title: "Eco-Friendly E-Commerce Website",
+      description: "An e-commerce platform designed to sell eco-friendly jute products like bags and handbags. Provides a user-friendly interface for browsing, purchasing, and managing sustainable products while promoting environmental awareness.",
       image: "/placeholder.svg",
-      tags: ["Flutter", "NodeJS", "MongoDB"],
-      githubUrl: "#",
-      liveUrl: "#",
-    },
-    {
-      title: "Buy & Get Inventory",
-      description: "Inventory dashboard for analyzing stock levels and cost in real-time using GPS. Integrates with point-of-sale systems to provide efficient communications management for vendors and staff.",
-      image: "/placeholder.svg",
-      tags: ["React", "Flask", "PostgreSQL"],
-      githubUrl: "#",
-      liveUrl: "#",
-    },
-    {
-      title: "Linkdin",
-      description: "Created an e-commerce platform designed to sell eco-friendly pet products like toys and beddings. Provides customers with information about sustainable products and manages inventory efficiently.",
-      image: "/placeholder.svg",
-      tags: ["HTML", "CSS", "JavaScript", "Firebase"],
-      githubUrl: "#",
-      liveUrl: "#",
-    },
-    {
-      title: "I do!",
-      description: "The platform creates efficient event management and maintains user experience. Allows event planners to manage venues, guest lists, catering, and support various event types.",
-      image: "/placeholder.svg",
-      tags: ["HTML", "CSS", "JavaScript", "NodeJS"],
+      tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
       githubUrl: "#",
       liveUrl: "#",
     },
@@ -181,6 +188,9 @@ const Projects = () => {
           >
             Recent Projects
           </h2>
+          <p className="text-white/60 max-w-2xl mx-auto">
+            Highlighted projects showcase my <span className="text-blue-400">Flutter</span> development expertise
+          </p>
         </header>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

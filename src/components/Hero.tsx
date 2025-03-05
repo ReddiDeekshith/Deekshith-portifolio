@@ -35,14 +35,14 @@ const Hero = () => {
           ref={titleRef}
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 translate-y-8 transition-all duration-700 ease-out"
         >
-          <span className="text-gradient">Deckshift Reddit</span>
+          <span className="text-gradient">Deekshith Reddi</span>
         </h1>
         
         <p 
           ref={subtitleRef}
           className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto opacity-0 translate-y-8 transition-all duration-700 ease-out delay-100"
         >
-          Full Stack Developer specializing in C++, Java, Python, JavaScript, Dart, React.js, Express.js, HTML, CSS, and Bootstrap. Creating responsive web applications and services.
+          <span className="text-blue-400 font-semibold">Flutter</span> Developer & Full Stack Engineer specialized in creating cross-platform mobile applications and responsive web solutions. Experienced with ReactJS, NodeJS, and various database technologies.
         </p>
         
         <div 

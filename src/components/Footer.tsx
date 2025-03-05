@@ -1,5 +1,5 @@
 
-import { ArrowUp, Mail, Phone, MapPin, Globe } from 'lucide-react';
+import { ArrowUp, Mail, Phone, MapPin, Globe, Github, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -14,23 +14,31 @@ const Footer = () => {
       <div className="container px-6 mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <p className="text-gradient text-lg font-medium mb-2">Deckshift Reddit</p>
+            <p className="text-gradient text-lg font-medium mb-2">Deekshith Reddi</p>
             <p className="text-white/60 text-sm">
-              Full Stack Developer
+              Flutter Developer & Full Stack Engineer
             </p>
           </div>
           
           <div className="flex flex-col items-end gap-2">
             <div className="flex items-center gap-2">
               <Mail size={16} className="text-white/60" />
-              <a href="mailto:deckshift.reddit@gmail.com" className="text-white/60 hover:text-white text-sm transition-colors">
-                deckshift.reddit@gmail.com
+              <a href="mailto:deekshithreddi71@gmail.com" className="text-white/60 hover:text-white text-sm transition-colors">
+                deekshithreddi71@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-2">
               <Phone size={16} className="text-white/60" />
-              <a href="tel:+917211556884" className="text-white/60 hover:text-white text-sm transition-colors">
-                +91 72115 56884
+              <a href="tel:+919912514884" className="text-white/60 hover:text-white text-sm transition-colors">
+                +91 99125 14884
+              </a>
+            </div>
+            <div className="flex items-center gap-4 mt-2">
+              <a href="https://github.com/ReddiDeekshith" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+                <Github size={18} />
+              </a>
+              <a href="https://linkedin.com/in/deekshith-reddi" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+                <Linkedin size={18} />
               </a>
             </div>
           </div>
