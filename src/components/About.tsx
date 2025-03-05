@@ -36,17 +36,17 @@ const About = () => {
     { 
       icon: <User size={20} />, 
       title: "Experience", 
-      value: "3+ Years" 
+      value: "2+ Years" 
     },
     { 
       icon: <Code size={20} />, 
       title: "Projects", 
-      value: "15+" 
+      value: "5+" 
     },
     { 
       icon: <Briefcase size={20} />, 
-      title: "Companies", 
-      value: "3+" 
+      title: "Internships", 
+      value: "2+" 
     },
   ];
 
@@ -83,15 +83,17 @@ const About = () => {
           <div className="col-span-1 md:col-span-2 flex flex-col justify-center">
             <h3 className="text-2xl font-semibold mb-4">Full Stack Developer & UI/UX Designer</h3>
             <p className="text-white/70 mb-6">
-              I am a passionate Full Stack Developer with expertise in React, HTML, CSS, and JavaScript. With a focus on creating elegant solutions for complex problems, I blend technical excellence with creative design thinking.
+              I am a passionate Full Stack Developer with expertise in React, JavaScript, HTML, CSS, Python, and SQL. With a focus on creating elegant solutions for complex problems, I blend technical excellence with creative design thinking.
             </p>
             <p className="text-white/70 mb-6">
-              As an intern at Deckcard Hub, I contributed to Front + group project enhancing communication skills. I also designed and built features for the Foodies Project and Car Catalog Net applications.
+              As a Front-End Technical Intern, I designed and implemented modules with real-time feedback. I also developed backend APIs and networking applications during my Backend Engineer internship.
             </p>
             <div className="flex flex-wrap gap-3">
               {[
-                "React", "JavaScript", "HTML", "CSS", "TypeScript", 
-                "Node.js", "MongoDB", "Redux", "Python", "Firebase"
+                "C++", "Java", "Python", "JavaScript", "Dart",
+                "React.js", "Express.js", "HTML", "CSS", "Bootstrap",
+                "MongoDB", "SQL", 
+                "REST", "Flutter", "NodeJS", "Firebase"
               ].map((skill) => (
                 <span 
                   key={skill}

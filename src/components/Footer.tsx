@@ -16,21 +16,21 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <p className="text-gradient text-lg font-medium mb-2">Deckshift Reddit</p>
             <p className="text-white/60 text-sm">
-              Full Stack Developer & UI/UX Designer
+              Full Stack Developer
             </p>
           </div>
           
           <div className="flex flex-col items-end gap-2">
             <div className="flex items-center gap-2">
               <Mail size={16} className="text-white/60" />
-              <a href="mailto:deckshiftr@reddit.com" className="text-white/60 hover:text-white text-sm transition-colors">
-                deckshiftr@reddit.com
+              <a href="mailto:deckshift.reddit@gmail.com" className="text-white/60 hover:text-white text-sm transition-colors">
+                deckshift.reddit@gmail.com
               </a>
             </div>
             <div className="flex items-center gap-2">
               <Phone size={16} className="text-white/60" />
-              <a href="tel:+1234567890" className="text-white/60 hover:text-white text-sm transition-colors">
-                (123) 456-7890
+              <a href="tel:+917211556884" className="text-white/60 hover:text-white text-sm transition-colors">
+                +91 72115 56884
               </a>
             </div>
           </div>

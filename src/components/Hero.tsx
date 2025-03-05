@@ -42,7 +42,7 @@ const Hero = () => {
           ref={subtitleRef}
           className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto opacity-0 translate-y-8 transition-all duration-700 ease-out delay-100"
         >
-          Full Stack Developer specializing in React, HTML, CSS, and JavaScript. Creating interactive web experiences with clean, efficient code.
+          Full Stack Developer specializing in C++, Java, Python, JavaScript, Dart, React.js, Express.js, HTML, CSS, and Bootstrap. Creating responsive web applications and services.
         </p>
         
         <div 

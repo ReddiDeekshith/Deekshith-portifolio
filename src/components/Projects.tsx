@@ -116,53 +116,53 @@ const Projects = () => {
     }
   }, [inView]);
   
-  // Sample projects data
+  // Projects data from resume
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A fully functional e-commerce platform with cart, checkout, and payment processing capabilities.",
+      title: "Face & Health Recognition",
+      description: "Utilized computer vision and deep learning techniques to automate attendance using biometric recognition. Enables secure facility access without friction and includes facial recognition with mask support.",
       image: "/placeholder.svg",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      tags: ["Python", "OpenCV", "AI"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
-      title: "AI Content Generator",
-      description: "An AI-powered application that generates high-quality content for various purposes.",
+      title: "Snap Pay",
+      description: "Created a global payment platform solution to facilitate transactions across multiple regions. Provides seamless money transfers with competitive rates and supports the whole payment lifecycle.",
       image: "/placeholder.svg",
-      tags: ["OpenAI", "React", "TailwindCSS", "Node.js"],
+      tags: ["Flutter", "Firebase", "NodeJS"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
-      title: "Real-Time Analytics Dashboard",
-      description: "A comprehensive dashboard for monitoring and analyzing real-time data and metrics.",
+      title: "Ubar",
+      description: "Implemented a ride-sharing platform optimized for urban travel with accurate feedback and location services. Features live location tracking, dynamic pricing, cashless transactions and driver support.",
       image: "/placeholder.svg",
-      tags: ["TypeScript", "D3.js", "Firebase", "React"],
+      tags: ["Flutter", "NodeJS", "MongoDB"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
-      title: "Fitness Tracking App",
-      description: "A mobile-first application for tracking fitness goals, workouts, and nutrition.",
+      title: "Buy & Get Inventory",
+      description: "Inventory dashboard for analyzing stock levels and cost in real-time using GPS. Integrates with point-of-sale systems to provide efficient communications management for vendors and staff.",
       image: "/placeholder.svg",
-      tags: ["React Native", "Redux", "Express", "MongoDB"],
+      tags: ["React", "Flask", "PostgreSQL"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
-      title: "Social Media Platform",
-      description: "A social networking platform with real-time messaging and content sharing.",
+      title: "Linkdin",
+      description: "Created an e-commerce platform designed to sell eco-friendly pet products like toys and beddings. Provides customers with information about sustainable products and manages inventory efficiently.",
       image: "/placeholder.svg",
-      tags: ["React", "Socket.io", "Express", "PostgreSQL"],
+      tags: ["HTML", "CSS", "JavaScript", "Firebase"],
       githubUrl: "#",
       liveUrl: "#",
     },
     {
-      title: "Task Management System",
-      description: "A collaborative task management tool for teams with real-time updates.",
+      title: "I do!",
+      description: "The platform creates efficient event management and maintains user experience. Allows event planners to manage venues, guest lists, catering, and support various event types.",
       image: "/placeholder.svg",
-      tags: ["Vue.js", "Vuex", "Node.js", "MongoDB"],
+      tags: ["HTML", "CSS", "JavaScript", "NodeJS"],
       githubUrl: "#",
       liveUrl: "#",
     },
@@ -173,7 +173,7 @@ const Projects = () => {
       <div className="container px-6 mx-auto max-w-6xl">
         <header className="text-center mb-16">
           <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-white/10 text-white/80 mb-3">
-            Portfolio
+            Project Work
           </span>
           <h2 
             ref={titleRef}
