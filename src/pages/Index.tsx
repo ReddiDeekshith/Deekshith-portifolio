@@ -19,7 +19,7 @@ const Index = () => {
       subtitle: "BTech in Computer Science and Engineering",
       date: "August 2022 - Present",
       description: "CGPA: 8.97/10. Relevant Coursework: Object Oriented Programming, Databases, Data Structures and Algorithms, Android and iOS App Development.",
-      icon: <BookOpen size={16} />,
+      icon: <BookOpen size={16} className="text-blue-400" />,
     },
   ];
   
@@ -30,14 +30,14 @@ const Index = () => {
       subtitle: "Flutter Developer",
       date: "June 2024 - July 2024",
       description: "As an intern at Technical Hub, I contributed to Hoot, a group project enhancing communication skills. I designed and implemented the Dictation and Sentence Construction modules with real-time feedback, gaining experience in Flutter, Node.js, MongoDB, and teamwork.",
-      icon: <Briefcase size={16} />,
+      icon: <Briefcase size={16} className="text-indigo-400" />,
     },
     {
       title: "Freelance Project - Bus and Car Tracking App",
       subtitle: "Flutter Developer",
       date: "December 2024 - January 2025",
       description: "Developed a bus and car tracking application for Aditya Engineering College using Flutter. The project, completed in 1.5 months, utilized Flutter, Node.js, MongoDB, and OpenStreetMap (OSM) for real-time tracking, route optimization, and navigation services.",
-      icon: <Briefcase size={16} />,
+      icon: <Briefcase size={16} className="text-purple-400" />,
     },
   ];
   
