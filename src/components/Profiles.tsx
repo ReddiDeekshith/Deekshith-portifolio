@@ -80,15 +80,15 @@ const Profiles = () => {
     {
       title: "GitHub",
       icon: <Github size={20} />,
-      url: "https://github.com/deckshiftr",
-      username: "@deckshiftr",
+      url: "https://github.com/ReddiDeekshith",
+      username: "@ReddiDeekshith",
       description: "View my project repositories and contributions to open-source.",
     },
     {
       title: "LinkedIn",
       icon: <Linkedin size={20} />,
-      url: "https://linkedin.com/in/deckshiftr",
-      username: "Deckshift Reddit",
+      url: "https://www.linkedin.com/in/deekshith-reddi/",
+      username: "Deekshith Reddi",
       description: "Connect with me professionally and view my work experience.",
     },
     {

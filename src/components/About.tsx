@@ -82,7 +82,7 @@ const About = () => {
           
           <div className="col-span-1 md:col-span-2 flex flex-col justify-center">
             <h3 className="text-2xl font-semibold mb-4">
-              <span className="text-blue-400">Flutter</span> Developer & Full Stack Engineer
+              <span className="text-blue-400">Flutter</span> Developer & Full Stack Developer
             </h3>
             <p className="text-white/70 mb-6">
               I am a passionate developer with expertise in <span className="text-blue-400 font-medium">Flutter</span>, React, JavaScript, HTML, CSS, Python, and SQL. With a focus on creating elegant mobile and web solutions, I blend technical excellence with creative design thinking.

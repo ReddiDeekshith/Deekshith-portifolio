@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <p className="bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-300 to-indigo-300 text-lg font-medium mb-2">Deekshith Reddi</p>
             <p className="text-white/60 text-sm">
-              <span className="text-blue-400">Flutter</span> Developer & <span className="text-cyan-400">React</span> Engineer
+              <span className="text-blue-400">Flutter</span> Developer & <span className="text-cyan-400">React</span> Developer
             </p>
           </div>
           

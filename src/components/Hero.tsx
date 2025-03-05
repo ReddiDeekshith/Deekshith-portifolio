@@ -62,7 +62,7 @@ const Hero = () => {
           ref={subtitleRef}
           className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto opacity-0 translate-y-8 transition-all duration-700 ease-out delay-100"
         >
-          <span className="text-blue-400 font-semibold">Flutter</span> Developer & Full Stack Engineer specialized in creating cross-platform mobile applications and responsive web solutions. Experienced with <span className="text-cyan-300">ReactJS</span>, NodeJS, and various database technologies.
+          <span className="text-blue-400 font-semibold">Flutter</span> Developer & Full Stack Developer specialized in creating cross-platform mobile applications and responsive web solutions. Experienced with <span className="text-cyan-300">ReactJS</span>, NodeJS, and various database technologies.
         </p>
         
         <div 

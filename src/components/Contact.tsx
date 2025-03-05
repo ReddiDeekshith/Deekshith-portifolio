@@ -60,19 +60,19 @@ const Contact = () => {
     {
       icon: <Mail size={20} />,
       title: "Email",
-      details: "hello@example.com",
-      link: "mailto:hello@example.com",
+      details: "deekshithreddi71@gmail.com",
+      link: "mailto:deekshithreddi71@gmail.com",
     },
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      details: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      details: "+91 9912514884",
+      link: "tel:+919912514884",
     },
     {
       icon: <MapPin size={20} />,
       title: "Location",
-      details: "San Francisco, CA",
+      details: "Tuni, East Godavari,Andhra pradesh",
       link: "#",
     },
   ];
@@ -112,7 +112,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white focus:outline-none focus:ring-2 focus:ring-white/20 transition-all"
-                  placeholder="John Doe"
+                  placeholder="Deekshith Reddi"
                 />
               </div>
               <div>
@@ -127,7 +127,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/10 text-white focus:outline-none focus:ring-2 focus:ring-white/20 transition-all"
-                  placeholder="john@example.com"
+                  placeholder="Deekshith@example.com"
                 />
               </div>
             </div>

@@ -18,7 +18,7 @@ const Index = () => {
       title: "Aditya Engineering College",
       subtitle: "BTech in Computer Science and Engineering",
       date: "August 2022 - Present",
-      description: "CGPA: 8.97/10. Relevant Coursework: Object Oriented Programming, Databases, Data Structures and Algorithms, Android and iOS App Development.",
+      description: "CGPA: 8.96/10. Relevant Coursework: Object Oriented Programming, Databases, Data Structures and Algorithms, Android and iOS App Development.",
       icon: <BookOpen size={16} className="text-blue-400" />,
     },
   ];
