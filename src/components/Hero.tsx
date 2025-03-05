@@ -35,14 +35,14 @@ const Hero = () => {
           ref={titleRef}
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 opacity-0 translate-y-8 transition-all duration-700 ease-out"
         >
-          <span className="text-gradient">Crafting Digital Experiences</span>
+          <span className="text-gradient">Deckshift Reddit</span>
         </h1>
         
         <p 
           ref={subtitleRef}
           className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto opacity-0 translate-y-8 transition-all duration-700 ease-out delay-100"
         >
-          I'm a developer focused on creating elegant, performant, and accessible web applications with attention to detail.
+          Full Stack Developer specializing in React, HTML, CSS, and JavaScript. Creating interactive web experiences with clean, efficient code.
         </p>
         
         <div 

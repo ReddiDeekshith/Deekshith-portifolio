@@ -1,7 +1,7 @@
 
 import { useRef, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
-import { Github, Linkedin, Code, Globe } from 'lucide-react';
+import { Github, Linkedin, Code, Globe, Mail, Phone } from 'lucide-react';
 
 interface ProfileCardProps {
   title: string;
@@ -75,35 +75,35 @@ const Profiles = () => {
     }
   }, [inView]);
   
-  // Sample profiles data
+  // Profiles data from resume
   const profiles = [
     {
       title: "GitHub",
       icon: <Github size={20} />,
-      url: "https://github.com/yourusername",
-      username: "@yourusername",
-      description: "Check out my open-source contributions and personal projects.",
+      url: "https://github.com/deckshiftr",
+      username: "@deckshiftr",
+      description: "View my project repositories and contributions to open-source.",
     },
     {
       title: "LinkedIn",
       icon: <Linkedin size={20} />,
-      url: "https://linkedin.com/in/yourusername",
-      username: "Your Name",
+      url: "https://linkedin.com/in/deckshiftr",
+      username: "Deckshift Reddit",
       description: "Connect with me professionally and view my work experience.",
     },
     {
       title: "CodePen",
       icon: <Code size={20} />,
-      url: "https://codepen.io/yourusername",
-      username: "@yourusername",
-      description: "Explore my front-end experiments and UI concepts.",
+      url: "https://codepen.io/deckshiftr",
+      username: "@deckshiftr",
+      description: "Check out my CodePen featuring demonstration of HTML, CSS, JavaScript skills.",
     },
     {
       title: "Portfolio",
       icon: <Globe size={20} />,
-      url: "#",
-      username: "yourwebsite.com",
-      description: "Visit my personal website for more information and projects.",
+      url: "https://deckshiftr.github.io/portfolio",
+      username: "deckshiftr.github.io/portfolio",
+      description: "Visit my eco-friendly e-commerce website showcasing sustainable products.",
     },
   ];
   

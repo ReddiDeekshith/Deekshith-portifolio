@@ -36,17 +36,17 @@ const About = () => {
     { 
       icon: <User size={20} />, 
       title: "Experience", 
-      value: "5+ Years" 
+      value: "3+ Years" 
     },
     { 
       icon: <Code size={20} />, 
       title: "Projects", 
-      value: "50+" 
+      value: "15+" 
     },
     { 
       icon: <Briefcase size={20} />, 
-      title: "Clients", 
-      value: "20+" 
+      title: "Companies", 
+      value: "3+" 
     },
   ];
 
@@ -61,7 +61,7 @@ const About = () => {
             ref={titleRef}
             className="text-3xl md:text-4xl font-bold mb-4 opacity-0 translate-y-10 transition-all duration-700 ease-out"
           >
-            Who I Am
+            Deckshift Reddit
           </h2>
         </div>
 
@@ -73,7 +73,7 @@ const About = () => {
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-indigo-500/20 to-purple-500/30 glass-panel flex items-center justify-center">
               <div className="relative w-full h-full">
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-8xl font-bold text-white/10">A</span>
+                  <span className="text-8xl font-bold text-white/10">D</span>
                 </div>
                 {/* Profile image would go here */}
               </div>
@@ -81,15 +81,18 @@ const About = () => {
           </div>
           
           <div className="col-span-1 md:col-span-2 flex flex-col justify-center">
-            <h3 className="text-2xl font-semibold mb-4">I create elegant solutions to complex problems</h3>
+            <h3 className="text-2xl font-semibold mb-4">Full Stack Developer & UI/UX Designer</h3>
             <p className="text-white/70 mb-6">
-              I am a passionate Full Stack Developer with a keen eye for design and a dedication to creating seamless user experiences. With expertise in modern web technologies, I bring ideas to life through clean code and intuitive interfaces.
+              I am a passionate Full Stack Developer with expertise in React, HTML, CSS, and JavaScript. With a focus on creating elegant solutions for complex problems, I blend technical excellence with creative design thinking.
             </p>
             <p className="text-white/70 mb-6">
-              My approach combines technical excellence with creative problem-solving, ensuring that every project I tackle not only functions flawlessly but also delivers meaningful value to users and businesses alike.
+              As an intern at Deckcard Hub, I contributed to Front + group project enhancing communication skills. I also designed and built features for the Foodies Project and Car Catalog Net applications.
             </p>
             <div className="flex flex-wrap gap-3">
-              {["React", "TypeScript", "Node.js", "TailwindCSS", "MongoDB", "AWS"].map((skill) => (
+              {[
+                "React", "JavaScript", "HTML", "CSS", "TypeScript", 
+                "Node.js", "MongoDB", "Redux", "Python", "Firebase"
+              ].map((skill) => (
                 <span 
                   key={skill}
                   className="px-3 py-1 text-sm font-medium rounded-full bg-white/5 border border-white/10 text-white/80 hover-lift"

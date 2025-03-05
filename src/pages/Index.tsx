@@ -12,52 +12,52 @@ import { BookOpen, Briefcase } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 
 const Index = () => {
-  // Education items data
+  // Education items data from resume
   const educationItems = [
     {
-      title: "Master's in Computer Science",
-      subtitle: "Stanford University",
-      date: "2018 - 2020",
-      description: "Focused on artificial intelligence and machine learning with a thesis on predictive algorithms for healthcare applications.",
-      icon: <BookOpen size={16} />,
-    },
-    {
-      title: "Bachelor's in Software Engineering",
-      subtitle: "MIT",
-      date: "2014 - 2018",
-      description: "Graduated with honors. Specialized in web technologies and distributed systems.",
-      icon: <BookOpen size={16} />,
-    },
-    {
-      title: "Web Development Bootcamp",
-      subtitle: "Coding Academy",
-      date: "2013 - 2014",
-      description: "Intensive training in modern web development technologies and practices.",
+      title: "B.S. in Computer Science",
+      subtitle: "Florida State University",
+      date: "2021 - 2025",
+      description: "Relevant Coursework: Object Oriented Programming, Databases, Data Structures and Algorithms. GPA: 3.8/4.0",
       icon: <BookOpen size={16} />,
     },
   ];
   
-  // Experience items data
+  // Experience items data from resume
   const experienceItems = [
     {
-      title: "Senior Frontend Developer",
-      subtitle: "Tech Innovations Inc.",
-      date: "2020 - Present",
-      description: "Lead frontend development for enterprise applications. Implemented new design system that increased user engagement by 40%.",
+      title: "Intern at Deckcard Hub",
+      subtitle: "Remote",
+      date: "September 2023 - Present",
+      description: "Contributed to Front + group project enhancing communication skills. Designed UI/UX features and collaborated with team members.",
       icon: <Briefcase size={16} />,
     },
     {
-      title: "Web Developer",
-      subtitle: "Digital Solutions Agency",
-      date: "2018 - 2020",
-      description: "Developed and maintained client websites and applications. Worked with React, Node.js, and various APIs.",
+      title: "Foodies Project - Restaurant Website",
+      subtitle: "Student Project",
+      date: "December 2022 - January 2023",
+      description: "Developed APIs and interfaces for restaurant database. The project completed in 15 minutes, utilized Python, Node.js, MongoDB, and TypeScript (HTML) for backend functionality.",
       icon: <Briefcase size={16} />,
     },
     {
-      title: "Junior Developer",
-      subtitle: "StartUp Ventures",
-      date: "2016 - 2018",
-      description: "Assisted in building MVPs for early-stage startups. Focused on rapid development and iteration.",
+      title: "Car Catalog Net",
+      subtitle: "Student Project",
+      date: "May 2022 - July 2022",
+      description: "Created a sleek web catalog with search functionality. Developed interactive web-based vendor applications using HTML, CSS, and JavaScript. Designed a clean, user-friendly interface for seamless interaction.",
+      icon: <Briefcase size={16} />,
+    },
+    {
+      title: "Frontend + Hub App",
+      subtitle: "Group Project",
+      date: "January 2022 - April 2022",
+      description: "Created a paired real-time presence solution to facilitate transactions across multiple regions. Developed a chat application with typing indicators that enables real-time messaging with unique sender methods.",
+      icon: <Briefcase size={16} />,
+    },
+    {
+      title: "Hockey VR",
+      subtitle: "Group Project",
+      date: "August 2021 - December 2021",
+      description: "Built a group project designed to improve communication and visitor skills through a 3-layer app with responsive UI. Developed the Frontend module, where users wrote word-by-word with accuracy feedback and re-function learning algorithm.",
       icon: <Briefcase size={16} />,
     },
   ];
